@@ -1,0 +1,165 @@
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:wght@500&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald';
+    overflow-x: hidden;
+}
+.navbar{
+    position: fixed !important;
+    margin-top: 0;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: whitesmoke;
+    background-color: black;
+    opacity: 0.9;
+}
+.ime{
+    margin-left: auto;
+    font-size:10vmin;
+}
+.gif{
+    display: flex;
+    height: 25vh;
+    width: 11vw;
+}
+.kontakt{
+    margin-left: auto;
+    margin-right: 10px;
+    font-size:5vmin;
+    cursor: pointer;
+}
+.kontakt:after{
+    position:absolute; 
+    content: ''; 
+    left: 0; 
+    bottom: 0px; 
+    height: 4px; 
+    width: 100%; 
+    background: white; 
+    opacity: 0; 
+    transition: all 0.2 linear; 
+}
+.kontakt:hover::after{
+    opacity: 0.5; 
+}
+.kontakt{
+    position: relative;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/aleksandr-popov-2GNBoMgKYEo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.header-content{
+    margin-bottom: 90px;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line{
+    width: 180px;
+    height: 4px;
+    background-color: #281c3f;   
+    border-radius: 5px;
+}
+.ctn{
+    padding: 8px 15px;
+    background-color: #281c3f;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.events{
+    margin: 0;
+    background-color: #925a1c;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: whitesmoke;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+}
+.row .col img{
+    display: flex; 
+     height: 15vmax;
+     width: 10vmax;
+} 
+
+.myForm {
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    background-color: #0f0e0e91;
+    border-radius: 3px;
+    padding: 1.8em;
+    justify-content: center;
+  }
+  .message {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+  .message > textarea {
+   flex: 1; 
+   min-width: 18em;
+   width: 100%;
+  }
+  .contact {
+   	flex: 1; 
+    order: 1;
+   	margin-right: 2em; 
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact h1{
+  font-size: 4vmin;
+  margin-bottom: 15px;
+  }
+  .contact input {
+    width: 100%;
+  }
+  .contact input,
+  .contact button {
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  .contact button {
+   background: rgb(0, 0, 0);
+   color: white;
+   border: 0;
+  }
+  .contact-data{
+    flex:1;
+    order: 3;
+    margin: 20px 20px;
+  }
+  .contact-data h3{
+    margin: 20px 20px;
+  }
